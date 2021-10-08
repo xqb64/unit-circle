@@ -21,7 +21,7 @@ canvas.pack()
 # unit circle
 canvas.create_oval(
     EXTRA_PIXELS, EXTRA_PIXELS,
-    (2 * RADIUS) * SCALE + EXTRA_PIXELS, (2 * RADIUS) * SCALE + EXTRA_PIXELS,
+    2 * RADIUS * SCALE + EXTRA_PIXELS, 2 * RADIUS * SCALE + EXTRA_PIXELS,
 )
 
 # small circle
@@ -47,7 +47,7 @@ canvas.create_text(
     text='cos = 0', tags=['cos'], fill='red'
 )
 
-# angle
+# angle text
 canvas.create_text(
     ((EXTRA_PIXELS * 2 + 2 * RADIUS * SCALE) / 6) * 5,
     EXTRA_PIXELS + 2 * RADIUS * SCALE + EXTRA_PIXELS / 2,
